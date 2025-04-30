@@ -1,0 +1,165 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+
+.neon-border {
+  border: 6px solid black;
+  border-radius: 12px;
+  box-shadow: 0 0 10px #7ef763,
+              0 0 20px #7ef763,
+              0 0 40px #7ef763,
+              0 0 80px #7ef763;
+  color: #fff;
+}
+
+.neon-button:hover {
+  background-color: #7ef763;
+  box-shadow: 0 0 10px #7ef763,
+  0 0 20px #7ef763,
+  0 0 40px #7ef763,
+  0 0 80px #7ef763;
+  color: #000;
+}
+.neon-input {
+  background-color: transparent;
+  color: white;
+  border: 2px solid #7ef763;
+  border-radius: 8px;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 0 5px #7ef763, 0 0 10px #7ef763;
+  outline: none;
+  transition: 0.3s ease;
+}
+
+.neon-input:focus {
+  box-shadow: 0 0 10px #7ef763, 0 0 20px #7ef763;
+}
+
+.button-save{
+  background-color: #7ef763;
+  color: black;
+}
+
+/* Organizar el formulario y la vista previa usando Flexbox */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+form label {
+  margin-bottom: 1rem;
+}
+
+button {
+  background-color: #7ef763;
+  color: #000;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #0d0d0d;
+  color: #fff;
+}
+
+h2 {
+  color: #fff;
+}
+
+/* Estilos para la vista previa */
+.CVPreview {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: white;
+  color: black;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-top: 2rem;
+}
+
+body {
+  background-color: #181818;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #7ef763;
+  text-align: center;
+  margin-top: 2rem;
+}
+/* Agrega estos estilos para que la vista previa sea más estructurada */
+#cv-preview {
+  font-family: 'Arial', sans-serif;
+  font-size: 12px;
+  padding: 20px;
+  color: #333;
+  background-color: #fff;
+  max-width: 600px;
+  margin: auto;
+}
+
+#cv-preview h2 {
+  text-align: center;
+  font-size: 18px;
+  color: black;
+}
+
+#cv-preview p {
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+#cv-preview strong {
+  color: black;
+}
